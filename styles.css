@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1.25rem;
+    font-family: "Poppins", system-ui;
+}
+
+/* ==========
+
+Typography
+
+========== */
+
+
+
+/* =========
+
+Layout
+
+========= */
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav {
+    margin-top: 3rem;
+    margin-right: 3rem;
+}
+
+nav ul { 
+
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 1em;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: #707070;
+    font-size: 1rem;
+}
+
+.btn-class {
+    padding-top: 3rem;
+}
+
+.btn {
+    padding: 1rem 2.5rem;
+    font-size: 1rem;
+    background-color: #5656f6;
+    color: white;
+    border-radius: 1rem;
+    border: 1px #5656f6 solid;
+}
+
+.col {
+    display: flex;
+}
+
+.col-img {
+    height: 100%;
+}
+
+.col-1 {
+    width: 40%;
+    object-fit: cover;
+}
+
+.col-2 {
+    width: 60%;
+    background: rgb(209, 202, 202);
+}
+
+h1 {
+    font-size: 3rem;
+    color: rgba(63, 48, 48, 0.915);
+    text-align: center;
+    padding: 0 3rem;
+}
+
+.enter-gym {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    margin-bottom: 0;
+    font-size: 1.5rem;
+}
+
+.btn-special {
+    margin-top: 0;
+    padding-top: 0.7rem;
+}
+    
+    
